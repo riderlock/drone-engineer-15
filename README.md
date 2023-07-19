@@ -9,7 +9,7 @@ SITLで動作する、Pymavlinkスクリプトです。<br>
 ・python実行にあたり、追加で必要なパッケージはありません。
 
 ## 実行方法<br>
-WSL(Ubuntu)のターミナルを2つ開き、それぞれでSITL実行とpymavlinkスクリプトの実行をして下さい。<br>
+WSL(Ubuntu)のターミナルを2つ開き、それぞれでSITL実行とpymavlinkスクリプトの実行、およびMission Plannerを実行して下さい。<br>
 なお、SITL起動直後にpymavlinkスクリプトを実行するとフライトモード変更出来ない事があります。<br>
 30秒ほど待ってからpymavlinkスクリプトを実行してください。<br>
 $ sim_vehicle.py -v Copter --console -L Kawachi<br>
